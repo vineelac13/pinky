@@ -1,0 +1,20 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    /* padding: 50px;
+    margin: 50px 100px; */
+    border: 1px solid black;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    width: 20x;
+    background-color: aquamarine;
+    gap: 20px;
+    justify-content:left;
+}
+

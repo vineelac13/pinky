@@ -1,0 +1,28 @@
+<html>
+   <body>
+    <h1>sa</h1>
+    <h2>sa</h2>
+    <h3>sa</h3>
+    <p class ="a" id="b">Hi Nikhila How are u!!</p>
+    <p class ="a" id="a">Hi Nikhila!!</p>
+
+    <script>
+        const e1=document.querySelector("#b")
+        
+        e1.style.color="orange"
+        e1.innerHTML="<h1>SusAra </h1>"
+        e1.id="f"
+        e1.addEventListener('mouseover',(e)=>{
+            console.log(e)
+            e.target.innerHTML="HAppY"
+        })
+        e1.addEventListener('mouseout',(e)=>{
+            console.log(e)
+            e.target.innerHTML="SusArA"
+        })
+        const e3=document.createElement("p")
+        e3.target.innerHTML="rerfg"
+        e3.after(e1)
+    </script>
+   </body>
+</html>
